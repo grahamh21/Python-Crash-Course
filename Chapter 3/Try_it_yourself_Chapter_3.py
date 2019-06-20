@@ -33,3 +33,39 @@ print('sorry ' + nodinner.upper() + ', you can come next time!')
 print('We are still having dinner ' + dinner_guests[0].title() + ', welcome home!')
 print('We are still having dinner ' + dinner_guests[1].title() + ', welcome home!')
 print('We are still having dinner ' + dinner_guests[2].title() + ', welcome home!')
+
+
+#Try It yourself 3-6
+print('\nTry It Yourself 3-6')
+dinner_guests.insert(0, 'Lee')
+dinner_guests.insert(2, 'Carla')
+dinner_guests.append('Claire')
+print(dinner_guests)
+print('Hello ' + dinner_guests[0] + ', nice to see you for dinner!')
+print('Hello ' + dinner_guests[1] + ', nice to see you for dinner!')
+print('Hello ' + dinner_guests[2] + ', nice to see you for dinner!')
+print('Hello ' + dinner_guests[3] + ', nice to see you for dinner!')
+print('Hello ' + dinner_guests[4] + ', nice to see you for dinner!')
+print('Hello ' + dinner_guests[5] + ', nice to see you for dinner!')
+
+#Try It yourself 3-7
+print('\nTry It Yourself 3-7')
+print('Table was slow =(')
+#
+print(dinner_guests)
+loser_guests = dinner_guests.pop()
+print(dinner_guests)
+print('Sorry ' + loser_guests + ', table too small!')
+loser_guests = dinner_guests.pop(0)
+print('Sorry ' + loser_guests + ', table too small!')
+loser_guests = dinner_guests.pop(0)
+print('Sorry ' + loser_guests + ', table too small!')
+loser_guests = dinner_guests.pop(0)
+print('Sorry ' + loser_guests + ', table too small!')
+print(dinner_guests)
+print('Good job winner!' + dinner_guests[0])
+print('Good job winner!' + dinner_guests[1])
+print(dinner_guests)
+del dinner_guests[0]
+del dinner_guests[0]
+print(dinner_guests)
