@@ -69,3 +69,8 @@ print(dinner_guests)
 del dinner_guests[0]
 del dinner_guests[0]
 print(dinner_guests)
+
+
+#Try It yourself 3-9
+print('\nTry It Yourself 3-9')
+print('There are ' + str(len(loser_guests)) + ' loser guests!')
