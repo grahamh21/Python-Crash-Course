@@ -2,14 +2,14 @@
 print('Try it yourself 4-7')
 threes = list(range(3,31,3))
 for three in threes:
-	print(three)
+    print(three)
 
 #Try_it_yourself 4-8
 print('Try it yourself 4-8\n')
 
 cubes = []
 for cube in range(1,11):
-	cubes.append(cube**3)
+    cubes.append(cube**3)
 print(cubes)
 
 #Try_it_yourself 4-9
@@ -42,7 +42,18 @@ my_pizzas.append('frank')
 friend_pizza.append('charlie')
 print('My favorite pizzas are:')
 for pizzas in my_pizzas:
-	print(pizzas)
+    print(pizzas)
 print('\n')
 for pizzas2 in friend_pizza:
-	print(pizzas2)
+    print(pizzas2)
+
+#Try_it_yourself 4-12
+print('Try it yourself 4-12: tuples')
+buffet = ( 'chicken', 'beef', 'cheese', 'meat', 'pork' )
+for food in buffet:
+    print(food)
+#buffet[1] = 'cow'
+print('\n')
+buffet = ( 'beer', 'water', 'cheese', 'meat', 'pork' )
+for food in buffet:
+    print(food)

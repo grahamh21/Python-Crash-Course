@@ -31,3 +31,5 @@ cars.append('copter')
 trucks.append('flash gordon')
 print(cars)
 print(trucks)
+#these are two completely independent lists - 
+#appending items to the end proves this - 
