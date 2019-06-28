@@ -34,7 +34,19 @@ print('Try it yourself: 5-2')
 # 4: Tests using the 'and' keyword and the 'or' keyword
 # 5 & 6: Test where an item is in a list or not in a list
 
-# 4:
+# 4: 
 if 'carol' not in lovers and 'john' not in lovers:
     print('boobs!')
- 
+#indented else did not work, had to put it at the bottom
+else:
+    print('no!')
+lovers = ['carol', 'sj', 'lauren', 'almul', 'ri']
+#trying to include loop - 
+#define lovers = 5 names
+#for every name in lovers, check to see if its almul,
+for lover in lovers:
+    if lover == 'almul':
+        print('oil!')
+else: 
+    if lover != 'almul':
+        print('flat')
