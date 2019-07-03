@@ -36,3 +36,14 @@ for username in usernames:
     else:
         print('Hello ' + username + '. Welcome to the website!')
     
+#Try It Yourself - 5:9 Hello Admin
+#using tuples instead of lists, hence the () instead of [] 
+usernames = ()
+if usernames:
+    for username in usernames:
+        if username == 'admin':
+            print('Hello admin! Would you like to see a status report?')
+        else:
+            print('Hello ' + username + '. Welcome to the website!')
+else:
+    print('\nWe need to find some users!')
