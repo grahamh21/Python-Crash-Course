@@ -25,3 +25,14 @@ if 'apples' in favorite_fruits:
     print('gross')
 if 'grapes' in favorite_fruits:
     print('grapes') 
+
+#Try It Yourself - 5:8 Hello Admin
+#using tuples instead of lists, hence the () instead of [] 
+usernames = ('admin', 'lendog50', 'greg', 'yoloswaggins', '420blaze')
+
+for username in usernames:
+    if username == 'admin':
+        print('Hello admin! Would you like to see a status report?')
+    else:
+        print('Hello ' + username + '. Welcome to the website!')
+    
