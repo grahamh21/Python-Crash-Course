@@ -10,7 +10,28 @@ favorite_numbers = {
     'steve': 6, 'jeremiah': 14,
     'lily' : 42069, 
     }
+print("Greg's favorite number is " + str(favorite_numbers['greg']))
+print("Carol's favorite number is " + str(favorite_numbers['carol']))
+print("Steve's favorite number is " + str(favorite_numbers['steve']))
+print("jeremiah's favorite number is " + str(favorite_numbers['jeremiah']))
+print("Lily's favorite number is " + str(favorite_numbers['lily']))
 
-for key in favorite_numbers:
-    print(key + "'s favorite number is" + favorite_numbers.value)
-    
+#Try it yourself 6-3:
+
+glossary = {'slice': 'A specific group of item(s) in a list',
+    'list comprehension': 'generate lists in one line of code',
+    'range function' : 'use to generate a series of numbers',
+    'string' : 'a series of characters',
+    'concatenation': 'method of combining strings'
+    }
+print('\n')
+print(glossary['slice'])
+print('\n')
+print(glossary['list comprehension'])
+print('\n')
+print(glossary['range function'])
+print('\n')
+print(glossary['string'])
+print('\n')
+print(glossary['concatenation'])
+print('\n')
