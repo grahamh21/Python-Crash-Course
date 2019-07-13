@@ -8,7 +8,7 @@ for topping in pizza['toppings']:
     print(topping)
 ##############################################################################
     
-favorite_toppings = { 'graham' : ['cheese', '],
+favorite_toppings = { 'graham' : ['cheese', ],
     'leo' : ['spinach', 'mushrooms', 'feta'],
     'meghan' : ['sand', 'gravy', 'water'],
     'andrew' : ['leaves', 'lead', 'magnets'],
