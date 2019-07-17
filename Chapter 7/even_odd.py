@@ -10,4 +10,11 @@ current_numbers = 1
 while current_numbers <= 5:
     print(current_numbers)
     current_numbers += 1
+print('\n')
+odd_numbers = 0
 
+while odd_numbers < 10:
+    odd_numbers += 1
+    if odd_numbers % 2 == 0:
+        continue
+    print(odd_numbers)
