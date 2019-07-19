@@ -2,6 +2,7 @@ unconfirmed_users = ['lily420', 'john316', 'mikeb']
 confirmed_users = []
 
 while unconfirmed_users:
+#as long as unconfirmed_users is not empty
     current_user = unconfirmed_users.pop()
 
     print('Verifying user: ' + current_user.title())
