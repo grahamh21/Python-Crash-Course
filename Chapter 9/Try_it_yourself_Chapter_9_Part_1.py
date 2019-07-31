@@ -17,9 +17,21 @@ class Restaurant():
         
         
 good_luck = Restaurant('good luck', 'new american')
-print(
+cure = Restaurant('cure', 'french')
+cedars_med = Restaurant('cedars mediterranian', 'greek')
+
+print(good_luck.restaurant_name)
+print(good_luck.cuisine_type)
 
 
 
 good_luck.describe_restaurant()
 good_luck.open_restaurant()
+
+#Try it yourself 9-2: Three Restaurants
+print('!!!!!!!!!!!!!!!!!!!!!!!!!')
+good_luck.describe_restaurant()
+cure.describe_restaurant()
+cedars_med.describe_restaurant()
+
+
