@@ -42,7 +42,7 @@ class IceCreamStand(Restaurant):
 pittsford_dairy = IceCreamStand('pittsford dairy', 'ice cream')
 
 pittsford_dairy.display_flavors()
-
+print('\n')
 #Try it yourself 9-7: Admin
 
 class User():
@@ -77,3 +77,22 @@ class User():
     def reset_login_attempts(self):
         '''resets login attempts'''
         self.login_attempts = 0 #notice not 2 equal signs, only 1
+        
+class Admin(User):
+    '''child class for Admins.'''
+    
+    def __init__(self, first_name, last_name, job, birth_month, birth_year):
+        '''Initializing the Admin Child class.'''
+        super().__init__(first_name, last_name, job, birth_month, birth_year)
+        self.privileges = []
+        
+    def show_privileges(self):
+        '''shows a list of the Admin privileges.'''
+        for privilege in self.privileges:
+            print('-' + privilege)
+            
+grahamh21 = Admin('graham', 'howard', 'admin', 'january', 1988)
+grahamh21.privileges = ['can add post', 'can delete post', 'can ban user']
+grahamh21.show_privileges()
+        
+        
