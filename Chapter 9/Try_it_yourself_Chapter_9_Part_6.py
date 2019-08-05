@@ -32,7 +32,20 @@ class User():
     def reset_login_attempts(self):
         '''resets login attempts'''
         self.login_attempts = 0 #notice not 2 equal signs, only 1
+
+class Privileges():
+    '''Defining class to be used as an attribute.'''
+    
+    def __init__(self, privileges=[]):
+        '''Initializing the privileges class.'''
+        self.privileges = privileges
+        self.privileges = ['can add post', 'can delete post', 'can ban user']
         
+    def show_privileges(self):
+        '''shows a list of the Admin privileges.'''
+        for privilege in self.privileges:
+            print('-' + privilege) 
+
 class Admin(User):
     '''child class for Admins.'''
     
@@ -42,18 +55,7 @@ class Admin(User):
         
         self.privileges = Privileges()
         
-class Privileges():
-    '''Defining class to be used as an attribute.'''
-    
-    def __init__(self, privileges=[]):
-        '''Initializing the privileges class.'''
-        self.privileges = privileges
-        ['can add post', 'can delete post', 'can ban user']
-        
-    def show_privileges(self):
-        '''shows a list of the Admin privileges.'''
-        for privilege in self.privileges:
-            print('-' + privilege) 
+
         
 kmoney = Admin('karson', 'lattamore', 'nurse', 'december', 1989)
-kmoney.priviliges.show_privileges()
+kmoney.privileges.show_privileges()
