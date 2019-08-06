@@ -95,4 +95,3 @@ grahamh21 = Admin('graham', 'howard', 'admin', 'january', 1988)
 grahamh21.privileges = ['can add post', 'can delete post', 'can ban user']
 grahamh21.show_privileges()
         
-        
