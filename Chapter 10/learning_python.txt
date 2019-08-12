@@ -1,0 +1,4 @@
+In Python you can....automate tasks
+In Python you can....do data analysis
+In Python you can....create websites
+In Python you can....do web-scraping
