@@ -13,8 +13,7 @@ for requested_topping2 in requested_toppings2:
         print('Adding ' + requested_topping2 + ' to your pizza!')
 print('\nYour pizza is finished being cooked!')
 print('\n')
-#to check if the list is empty, we start with an 'if' statement instead of a 
-#'for' statement
+#to check if the list is empty, we start with an 'if' statement instead of a 'for' statement
 toppings = ['pepperoni']
 
 if toppings:
